@@ -3,6 +3,7 @@ fn main() {
     assert_eq!(fibonacci(2), 1);
     assert_eq!(fibonacci(3), 2);
     assert_eq!(fibonacci(4), 3);
+    assert_eq!(fibonacci(10), 55);
 }
 
 fn fibonacci(n: i32) -> i32 {
